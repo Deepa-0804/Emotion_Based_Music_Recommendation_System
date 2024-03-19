@@ -1,5 +1,11 @@
-1.streamlit
-2.streamlit_webrtc
-3.mediapipe
-4.keras.models
-5.webbrowser
+streamlit
+streamlit_webrtc
+webrtc_streamer
+mediapipe
+keras.models
+webbrowser
+os
+av
+numpy
+keras.utils
+cv2 
