@@ -1,6 +1,4 @@
 streamlit
-streamlit_webrtc
-webrtc_streamer
 mediapipe
 keras.models
 webbrowser
