@@ -2,7 +2,7 @@ streamlit
 streamlit_webrtc
 mediapipe
 keras.models
-webbrowser
+simple-webbrowser
 os
 av
 numpy
