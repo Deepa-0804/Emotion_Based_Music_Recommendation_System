@@ -5,7 +5,7 @@ import cv2
 import numpy as np 
 import mediapipe as mp 
 from keras.models import load_model
-import webbrowser
+import simple-webbrowser
 
 model  = load_model("model.h5")
 label = np.load("labels.npy")
@@ -96,6 +96,6 @@ if btn:
 		st.warning("Please let me capture your emotion first")
 		st.session_state["run"] = "true"
 	else:
-		webbrowser.open(f"https://www.youtube.com/results?search_query={lang}+{emotion}+song+{singer}")
+		simple-webbrowser.open(f"https://www.youtube.com/results?search_query={lang}+{emotion}+song+{singer}")
 		np.save("emotion.npy", np.array([""]))
 		st.session_state["run"] = "false"
