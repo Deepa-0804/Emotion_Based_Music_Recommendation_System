@@ -7,4 +7,4 @@ os2024
 av
 numpy
 keras.utils
-cv
+cv2
