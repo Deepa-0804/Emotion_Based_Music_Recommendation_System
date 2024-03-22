@@ -9,3 +9,4 @@ av
 numpy
 keras.utils
 cv
+opencv-python
