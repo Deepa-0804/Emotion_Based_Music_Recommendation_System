@@ -1,10 +1,11 @@
 streamlit
 streamlit_webrtc
 mediapipe
+mp
 keras.models
 simple-webbrowser
 os2024
 av
 numpy
 keras.utils
-cv2
+cv
