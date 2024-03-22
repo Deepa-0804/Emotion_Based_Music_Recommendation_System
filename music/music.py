@@ -6,6 +6,7 @@ import numpy as np
 import mediapipe as mp 
 from keras.models import load_model
 import simple_webbrowser as swb
+import drawing 
 
 model  = load_model("model.h5")
 label = np.load("labels.npy")
